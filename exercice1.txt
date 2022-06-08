@@ -1,0 +1,16 @@
+E1.
+Ecrire un algorithme qui demande l'âge d'un enfant. Ensuite, il l'informe de sa catégorie :
+
+« Poussin » de 7 à 9 ans
+
+« Pupille » de 10 à 11 ans
+
+« Benjamin » de 12 à 13 ans
+
+« Minime » de 14 à 15 ans
+
+« Cadet » 16 à 17 ans
+
+PRENDRE INPUT DE L'UTILISATEUR
+STOCKER LA VALEUR DANS UN INT age
+SI age < 7
