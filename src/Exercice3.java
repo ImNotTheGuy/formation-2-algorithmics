@@ -12,9 +12,17 @@ public class Exercice3 {
         String prenom = sc.nextLine();
         System.out.print("Nom: ");
         String nom = sc.nextLine();
-        System.out.print("Age: ");
-        byte age = sc.nextByte();
 
+        byte age = -1;
+        while (age < 0) {
+            System.out.print("Age: ");
+            age = sc.nextByte();
+            if (age < 0) {
+                System.out.println("Please specify a positive number");
+            } else if (age < 3){
+                System.out.println("Can you really write ?");
+            }
+        }
         System.out.println("Vous vous appelez " + prenom + " " + nom + " et avez " + age + " ans");
     }
 }

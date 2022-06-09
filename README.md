@@ -8,6 +8,32 @@
 |    4     | [Exercice 4](https://github.com/ImNotTheGuy/formation-2-algorithmics/blob/dec58165ef192d29e083987428782b0c217749c6/src/Exercice4.java) | Completed |
 |    5     | [Exercice 5](https://github.com/ImNotTheGuy/formation-2-algorithmics/blob/dec58165ef192d29e083987428782b0c217749c6/src/Exercice5.java) | Completed |
 
+**Note**: In the exercises we were asked to take some user input. 
+We therefore used a `Scanner` in Java which allows to take user
+input from the console. Code looks like this:
+```{JAVA}
+
+// For int
+Scanner sc = new Scanner(System.in);
+System.out.println("choose a number: ");
+int a = sc.nextint();
+
+// For string
+Scanner sc = new Scanner(System.in);
+System.out.println("Say something: ");
+String a = sc.nextLine();
+
+// Can also use sc.next() but this will only register the first 
+// 'word' and will stop at first space
+
+// For other types, just change variable type declaration and write
+// float --> sc.nextFloat();
+// double --> sc.nextDouble();
+// byte --> sc.nextByte();
+// ...
+```
+
+
 # Exercice 1
 
 
@@ -68,7 +94,6 @@ CRÉER VARIABLE FLOAT (OU DOUBLE) 'rayon'
 
 AFFECTER À 'rayon' LA VALEUR: 'diametre' / 2
 AFFECTER À 'surface' LA VALEUR: 'rayon' **2 * PI
-
 ```
 
 # Exercice 3
@@ -117,12 +142,15 @@ AFFECTER À 'a' LA VALEUR: 51
 AFFECTER À 'b' LA VALEUR: 876
 AFFECTER À 'c' LA VALEUR: 235
 
-AFFECTER À 'b' LA VALEUR: 'a'
-AFFECTER À 'c' LA VALEUR: 'a'
-AFFECTER À 'a' LA VALEUR: 'c' <-- Inutile car 'c' vaut déjà 'a'.
+AFFECTER À 'a_temporaire' LA VALEUR: 'a'
+AFFECTER À 'b_temporaire' LA VALEUR: 'b'
+AFFECTER À 'c_temporaire' LA VALEUR: 'c'
 
+AFFECTER À 'b' LA VALEUR: 'a_temporaore'
+AFFECTER À 'c' LA VALEUR: 'a_temporaore'
+AFFECTER À 'a' LA VALEUR: 'c_temporaore'
 
-
+AFFICHER 'a', 'b', et 'c'
 ```
 
 

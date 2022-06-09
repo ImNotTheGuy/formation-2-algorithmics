@@ -11,7 +11,6 @@ public class Exercice2 {
         Scanner sc = new Scanner(System.in);    //System.in is a standard input stream
         System.out.print("Enter first number- ");
         float diametre = sc.nextFloat();
-
         float rayon = diametre / 2;
         double surface = Math.pow(rayon, 2) * Math.PI;
 
