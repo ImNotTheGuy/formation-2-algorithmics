@@ -7,7 +7,7 @@ public class Exercice3 {
         prenom et age, et qui ensuite va afficher le message :
         "Vous vous appelez <prenom> <nom>, et vous avez <age> ans"*/
 
-        Scanner sc= new Scanner(System.in);    //System.in is a standard input stream
+        Scanner sc = new Scanner(System.in);    //System.in is a standard input stream
         System.out.print("Prenom: ");
         String prenom = sc.nextLine();
         System.out.print("Nom: ");
@@ -15,6 +15,6 @@ public class Exercice3 {
         System.out.print("Age: ");
         byte age = sc.nextByte();
 
-        System.out.println("Vous vous appelez " + prenom + " " + nom + " et avez " + age + " ans" );
+        System.out.println("Vous vous appelez " + prenom + " " + nom + " et avez " + age + " ans");
     }
 }

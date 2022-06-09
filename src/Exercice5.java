@@ -13,7 +13,7 @@ public class Exercice5 {
         age = 30
         Votre année de naissance est : 1992*/
 
-        Scanner sc= new Scanner(System.in);    //System.in is a standard input stream
+        Scanner sc = new Scanner(System.in);    //System.in is a standard input stream
         System.out.print("Your age: ");
         byte age = sc.nextByte();
         int annee_naissance = 2022 - age;

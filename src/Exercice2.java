@@ -8,12 +8,12 @@ public class Exercice2 {
         Surface = Rayon x Rayon x PI;
         Rayon = Diamètre / 2*/
 
-        Scanner sc= new Scanner(System.in);    //System.in is a standard input stream
+        Scanner sc = new Scanner(System.in);    //System.in is a standard input stream
         System.out.print("Enter first number- ");
         float diametre = sc.nextFloat();
 
         float rayon = diametre / 2;
-        double surface =  Math.pow(rayon, 2) * Math.PI;
+        double surface = Math.pow(rayon, 2) * Math.PI;
 
         System.out.println(surface);
 

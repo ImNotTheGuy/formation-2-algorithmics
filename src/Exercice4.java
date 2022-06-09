@@ -11,7 +11,7 @@ public class Exercice4 {
         Permutation: b <== a, c <== b, a <== c
         Les valeurs permutées sont : a = 235, b = 51 et c = 876*/
 
-        Scanner sc= new Scanner(System.in);    //System.in is a standard input stream
+        Scanner sc = new Scanner(System.in);    //System.in is a standard input stream
         System.out.print("Enter a:");
         int a, _a = sc.nextInt();
         System.out.print("Enter b:");
@@ -23,7 +23,7 @@ public class Exercice4 {
         c = _b;
         a = _c;
 
-        System.out.println("a " + a + "\n" +"b " +  b + "\n" + "c "+ c);
+        System.out.println("a " + a + "\n" + "b " + b + "\n" + "c " + c);
 
     }
 }
