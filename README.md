@@ -1,4 +1,15 @@
+# 08.06.2022 - Algorithmics
+
+| Exercice |                                                                  Code                                                                  |  Progress |
+|:--------:|:--------------------------------------------------------------------------------------------------------------------------------------:|:----------:|
+|    1     | [Exercice 1](https://github.com/ImNotTheGuy/formation-2-algorithmics/blob/dec58165ef192d29e083987428782b0c217749c6/src/Exercice1.java) | Completed |
+|    2     | [Exercice 2](https://github.com/ImNotTheGuy/formation-2-algorithmics/blob/dec58165ef192d29e083987428782b0c217749c6/src/Exercice2.java) | Completed |
+|    3     | [Exercice 3](https://github.com/ImNotTheGuy/formation-2-algorithmics/blob/dec58165ef192d29e083987428782b0c217749c6/src/Exercice3.java) | Completed |
+|    4     | [Exercice 4](https://github.com/ImNotTheGuy/formation-2-algorithmics/blob/dec58165ef192d29e083987428782b0c217749c6/src/Exercice4.java) | Completed |
+|    5     | [Exercice 5](https://github.com/ImNotTheGuy/formation-2-algorithmics/blob/dec58165ef192d29e083987428782b0c217749c6/src/Exercice5.java) | Completed |
+
 # Exercice 1
+
 
 ## Instruction:
 
@@ -36,6 +47,7 @@ ELSE: OUTPUT: "TROP GRAND"
 
 END IF
 ```
+
 
 # Exercice 2
 
